@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "cdreportingadf"
+		},
+		"ls_ablob_cdreportingsa_connectionString": {
+			"value": ""
+		},
+		"ls_adls_cdreportinggen2_accountKey": {
+			"value": ""
+		},
+		"ls_adls_cdreportinggen2_properties_typeProperties_url": {
+			"value": "https://cdreportinggen2.dfs.core.windows.net"
+		},
+		"ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url": {
+			"value": "@{linkedService().sourceBaseURL}"
+		},
+		"tr_ingest_population_data_properties_typeProperties_scope": {
+			"value": "/subscriptions/94d67791-6e06-4f77-bc46-0b862e8aeb03/resourceGroups/sbox-de020-dev-rg/providers/Microsoft.Storage/storageAccounts/cdreportingsa"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
