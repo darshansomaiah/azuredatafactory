@@ -1,4 +1,9 @@
 {
 	"name": "cdreportingadf",
-	"location": "eastus"
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b84179b5-f86a-4481-ac06-1dce9374b9d4",
+		"tenantId": "db1e96a8-a3da-442a-930b-235cac24cd5c"
+	}
 }
