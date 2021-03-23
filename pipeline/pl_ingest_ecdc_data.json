@@ -1,6 +1,7 @@
 {
 	"name": "pl_ingest_ecdc_data",
 	"properties": {
+		"description": "pl_ingest_ecdc_data",
 		"activities": [
 			{
 				"name": "Lookup ECDC File List",
