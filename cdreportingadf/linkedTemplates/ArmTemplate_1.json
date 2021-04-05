@@ -25,6 +25,9 @@
 					"referenceName": "ls_sql_cd_db",
 					"type": "LinkedServiceReference"
 				},
+				"folder": {
+					"name": "sql"
+				},
 				"annotations": [],
 				"type": "AzureSqlTable",
 				"schema": [

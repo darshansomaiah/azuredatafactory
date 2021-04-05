@@ -827,6 +827,9 @@
 					"referenceName": "ls_adls_cdreportinggen2",
 					"type": "LinkedServiceReference"
 				},
+				"folder": {
+					"name": "lookup"
+				},
 				"annotations": [],
 				"type": "DelimitedText",
 				"typeProperties": {
@@ -876,6 +879,9 @@
 				"linkedServiceName": {
 					"referenceName": "ls_adls_cdreportinggen2",
 					"type": "LinkedServiceReference"
+				},
+				"folder": {
+					"name": "lookup"
 				},
 				"annotations": [],
 				"type": "DelimitedText",
@@ -955,6 +961,9 @@
 					"referenceName": "ls_ablob_cdreportingsa",
 					"type": "LinkedServiceReference"
 				},
+				"folder": {
+					"name": "lookup"
+				},
 				"annotations": [],
 				"type": "Json",
 				"typeProperties": {
@@ -996,6 +1005,9 @@
 					"fileName": {
 						"type": "string"
 					}
+				},
+				"folder": {
+					"name": "raw"
 				},
 				"annotations": [],
 				"type": "DelimitedText",
@@ -1043,6 +1055,9 @@
 						"type": "string"
 					}
 				},
+				"folder": {
+					"name": "raw"
+				},
 				"annotations": [],
 				"type": "DelimitedText",
 				"typeProperties": {
@@ -1072,6 +1087,9 @@
 				"linkedServiceName": {
 					"referenceName": "ls_ablob_cdreportingsa",
 					"type": "LinkedServiceReference"
+				},
+				"folder": {
+					"name": "raw"
 				},
 				"annotations": [],
 				"type": "DelimitedText",
@@ -1103,6 +1121,9 @@
 					"referenceName": "ls_adls_cdreportinggen2",
 					"type": "LinkedServiceReference"
 				},
+				"folder": {
+					"name": "raw"
+				},
 				"annotations": [],
 				"type": "DelimitedText",
 				"typeProperties": {
@@ -1132,6 +1153,9 @@
 					"referenceName": "ls_adls_cdreportinggen2",
 					"type": "LinkedServiceReference"
 				},
+				"folder": {
+					"name": "processed"
+				},
 				"annotations": [],
 				"type": "DelimitedText",
 				"typeProperties": {
@@ -1159,6 +1183,9 @@
 				"linkedServiceName": {
 					"referenceName": "ls_adls_cdreportinggen2",
 					"type": "LinkedServiceReference"
+				},
+				"folder": {
+					"name": "processed"
 				},
 				"annotations": [],
 				"type": "DelimitedText",
@@ -1188,6 +1215,9 @@
 					"referenceName": "ls_adls_cdreportinggen2",
 					"type": "LinkedServiceReference"
 				},
+				"folder": {
+					"name": "processed"
+				},
 				"annotations": [],
 				"type": "DelimitedText",
 				"typeProperties": {
@@ -1215,6 +1245,9 @@
 				"linkedServiceName": {
 					"referenceName": "ls_adls_cdreportinggen2",
 					"type": "LinkedServiceReference"
+				},
+				"folder": {
+					"name": "processed"
 				},
 				"annotations": [],
 				"type": "DelimitedText",
@@ -1279,6 +1312,9 @@
 				"linkedServiceName": {
 					"referenceName": "ls_adls_cdreportinggen2",
 					"type": "LinkedServiceReference"
+				},
+				"folder": {
+					"name": "raw"
 				},
 				"annotations": [],
 				"type": "DelimitedText",
@@ -1346,6 +1382,9 @@
 					"referenceName": "ls_adls_cdreportinggen2",
 					"type": "LinkedServiceReference"
 				},
+				"folder": {
+					"name": "raw"
+				},
 				"annotations": [],
 				"type": "DelimitedText",
 				"typeProperties": {
@@ -1404,6 +1443,9 @@
 					"referenceName": "ls_sql_cd_db",
 					"type": "LinkedServiceReference"
 				},
+				"folder": {
+					"name": "sql"
+				},
 				"annotations": [],
 				"type": "AzureSqlTable",
 				"schema": [
@@ -1461,6 +1503,9 @@
 					"referenceName": "ls_sql_cd_db",
 					"type": "LinkedServiceReference"
 				},
+				"folder": {
+					"name": "sql"
+				},
 				"annotations": [],
 				"type": "AzureSqlTable",
 				"schema": [
@@ -1517,6 +1562,9 @@
 				"linkedServiceName": {
 					"referenceName": "ls_sql_cd_db",
 					"type": "LinkedServiceReference"
+				},
+				"folder": {
+					"name": "sql"
 				},
 				"annotations": [],
 				"type": "AzureSqlTable",
