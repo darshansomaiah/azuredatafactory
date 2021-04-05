@@ -11,6 +11,9 @@
 		"ls_adls_cdreportinggen2_accountKey": {
 			"value": ""
 		},
+		"ls_sql_cd_db_connectionString": {
+			"value": ""
+		},
 		"ls_adls_cdreportinggen2_properties_typeProperties_url": {
 			"value": "https://cdreportinggen2.dfs.core.windows.net"
 		},
