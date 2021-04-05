@@ -1,0 +1,40 @@
+{
+	"name": "pl_execute_population_pipelines",
+	"properties": {
+		"activities": [
+			{
+				"name": "Execute Ingest Population Data",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "pl_ingest_population_data",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "Wait for Sometime",
+				"type": "Wait",
+				"dependsOn": [
+					{
+						"activity": "Execute Ingest Population Data",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 60
+				}
+			}
+		],
+		"folder": {
+			"name": "Execute"
+		},
+		"annotations": []
+	}
+}
